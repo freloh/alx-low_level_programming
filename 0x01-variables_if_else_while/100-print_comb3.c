@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - prints all possible different combinations of two digits
  *
  * Return: returns zero finally
  */
-
 int main(void)
 {
 	int i, j;
@@ -16,19 +14,17 @@ int main(void)
 		{
 			if (j > i)
 			{				
-				putchar(i + '0');
-				putchar(j + '0');
-				if (i != 8)
-				{
-				putchar(',');
-				putchar(' ');
-				}
+			putchar(i + '0');
+			putchar(j + '0');
+			if (i != 8)
+			{
+			putchar(',');
+			putchar(' ');
+			}
 			}
 		}
 	}
-
 	putchar('\n');
 
 	return (0);
-
 }
