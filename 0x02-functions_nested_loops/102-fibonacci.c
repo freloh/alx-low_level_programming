@@ -2,7 +2,7 @@
 /**
  * main - prints out first 50
  * fibonacci suit numbers
- * Returns: return 0
+ * Return: return 0
  */
 int main(void)
 {
