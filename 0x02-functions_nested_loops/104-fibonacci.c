@@ -7,13 +7,13 @@
 int main(void)
 {
 	int inc;
-	unsigned long n = 1, m = 2, o;
+	unsigned long n = 0, m = 1, o;
 
 	for (inc = 0; inc < 98; inc++)
 	{
 		o = n + m;
 		printf("%lu", o);
-		n = o;
+		n = m;
 		m = o;
 
 		if (inc == 97)
