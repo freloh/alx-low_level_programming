@@ -7,7 +7,7 @@
 int main(void)
 {
 	int inc;
-	unsigned long n = 0, m = 1, o;
+	unsigned long n = 1, m = 2, o;
 
 	for (inc = 0; inc < 98; inc++)
 	{
@@ -16,7 +16,7 @@ int main(void)
 		n = m;
 		m = o;
 
-		if (inc == 97)
+		if (inc == 95)
 			printf("\n");
 		else
 			printf(", ");
