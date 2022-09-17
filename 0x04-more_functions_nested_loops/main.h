@@ -16,7 +16,7 @@ void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
 int _putchar(char c);
-int _isipper(int c);
+int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
 
