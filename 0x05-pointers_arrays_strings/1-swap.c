@@ -2,8 +2,8 @@
 
 /**
  * main - swaps the values of two integers
- * @p : 1 pointer
- * @q : 2 pointer
+ * @a : 1 pointer
+ * @b : 2 pointer
  * Return: void
  */
 
