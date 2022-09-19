@@ -1,9 +1,7 @@
 #include "main.h"
-#include <stdio>
 
 /**
- * reset_to_98 - takes a pointer to integer data type and
- * updates value
+ * reset_to_98 - reset data type to 98
  * @n: pointer
  * Return: void
  */
